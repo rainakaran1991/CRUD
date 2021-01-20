@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS persons;
+
+CREATE TABLE persons (
+  id  VARCHAR(250) PRIMARY KEY,
+  first_name VARCHAR(250) NOT NULL,
+  last_name VARCHAR(250) NOT NULL,
+  street VARCHAR(250) NOT NULL,
+  city VARCHAR(250) NOT NULL,
+  state VARCHAR(250) NOT NULL,
+  postal_code VARCHAR(250) NOT NULL
+);
